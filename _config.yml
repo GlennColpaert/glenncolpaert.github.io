@@ -17,6 +17,13 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
+  navigation:
+    - title: Home
+      url: "/"
+    - title: About
+      url: "/"
+
+
   # generate social links in footer
   social_links:
     twitter: GlennColpaert
@@ -47,12 +54,6 @@ plainwhite:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
-
-navigation:
-    - title: Home
-      url: "/"
-    - title: About
-      url: "/"
 
 # Build settings
 theme: plainwhite
