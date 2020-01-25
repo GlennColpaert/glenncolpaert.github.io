@@ -1,5 +1,5 @@
-title: Your awesome title
-author: GitHub User
+title: Glenn Colpaert
+author: GlennColpaert
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
@@ -12,16 +12,16 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: Glenn Colpaert
+  tagline: Azure Architect
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
+    twitter: GlennColpaert
+    github:  GlennColpaert
+    linkedIn: in/GlennColpaert
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll
@@ -47,6 +47,12 @@ plainwhite:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
+
+navigation:
+    - title: Home
+      url: "/"
+    - title: About
+      url: "/"
 
 # Build settings
 theme: plainwhite
