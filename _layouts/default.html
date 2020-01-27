@@ -1,74 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+	<head>
     {%- include head.html -%}
-  </head>
-  <body>
-    <main class="container">
-        <section class="about">
-            <a href="/"><img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
-            <h2 id="title">
-                <a href="/">{{ site.plainwhite.name }}</a>
-            </h2>
-            <p class="tagline">{{ site.plainwhite.tagline }}</p>
-            <ul class="social">
+	</head>
+	<body>
+		<main class="container">
+			<section class="about">
+				<a href="/">
+					<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}">
+					</a>
+					<h2 id="title">
+						<a href="/">{{ site.plainwhite.name }}</a>
+					</h2>
+					<p class="tagline">{{ site.plainwhite.tagline }}</p>
+					<ul class="social">
                 {%- if site.plainwhite.social_links.github -%}
-                <a href="https://github.com/{{ site.plainwhite.social_links.github }}" target="_blank">
-                    <li>
-                        <i class="icon-github-circled"></i>
-                    </li>
-                </a>
+						<a href="https://github.com/{{ site.plainwhite.social_links.github }}" target="_blank">
+							<li>
+								<i class="icon-github-circled"/>
+							</li>
+						</a>
                 {%- endif -%}
                 {%- if site.plainwhite.social_links.linkedIn -%}
-                <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}" target="_blank">
-                    <li>
-                        <i class="icon-linkedin-squared"></i>
-                    </li>
-                </a>
+						<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}" target="_blank">
+							<li>
+								<i class="icon-linkedin-squared"/>
+							</li>
+						</a>
                 {%- endif -%}
                 {%- if site.plainwhite.social_links.twitter -%}
-                <a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}" target="_blank">
-                    <li>
-                        <i class="icon-twitter-squared"></i>
-                    </li>
-                </a>
+						<a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}" target="_blank">
+							<li>
+								<i class="icon-twitter-squared"/>
+							</li>
+						</a>
                 {%- endif -%}
-            </ul>
+					</ul>
 
             {%- if site.plainwhite.navigation -%}
-            <nav class="navigation">
-                <ul>
+					<nav class="navigation">
+						<ul>
                     {% for link in site.plainwhite.navigation %}
-                    <li>
-                        <a href="{{ link.url }}">{{ link.title }}</a>
-                    </li>
+							<li>
+								<a href="{{ link.url }}">{{ link.title }}</a>
+							</li>
                     {% endfor %}
-                </ul>
-            </nav>
+						</ul>
+					</nav>
             {%- endif -%}
 
-            <p>
-                <img src="../assets/media/logo-mvp.png" alt="Microsoft MVP Logo">
-            </p>
+					<p>
+						<a href="https://mvp.microsoft.com/en-us/PublicProfile/5001142" target="_blank">
+							<img src="../assets/media/logo-mvp.png" alt="Microsoft MVP Logo" />
+						</a>
 
-            <p>
+					</p>
+					<p>
+						<a href="https://sessionize.com/glenn-colpaert/" target="_blank">
+							<img src="../assets/media/logo-sessionize.png" alt="Sessionize Logo" />
+						</a>
+					</p>
+
+					<p>
                 &copy;
                 {{ "now" | date: "%Y" }}
-            </p>
-        </section>
-      <section class="content">
+					</p>
+				</section>
+				<section class="content">
         {{ content }}
-      </section>
-    </main>
+				</section>
+			</main>
     {%- if site.plainwhite.analytics_id -%}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
-      <script>
+			<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"/>
+			<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 
 		gtag('config', '{{ site.plainwhite.analytics_id }}');
-	</script>
+			</script>
     {%- endif -%}
-  </body>
-</html>
+		</body>
+	</html>
+	
