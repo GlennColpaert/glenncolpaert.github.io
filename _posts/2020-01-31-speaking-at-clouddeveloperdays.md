@@ -5,7 +5,7 @@ date:   2020-01-31
 categories: Community Speaking Azure
 ---
 
-I received the confirmation that I will be speaking at Cloud Developer Days 2020 in Krakow - Poland! Cloud DeveloperDays is a conference designed for software developers that get deployed to or integrates with any cloud platform. 
+I received the confirmation that I will be speaking at Cloud Developer Days 2020 in Krakow - Poland! Cloud DeveloperDays is the biggest event in Central and Easern Europe dedicated exclusively to application development on the .NET Platform and integration with any cloud platform. 
 This years event takes place on **May 18-20 in EXPO Krakow**!
 
 ![GitHub Logo](/assets/media/events/PL-clouddeveloperdays.png)
