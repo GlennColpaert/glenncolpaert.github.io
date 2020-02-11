@@ -13,11 +13,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Glenn Colpaert
-  tagline: | 
-  CTO Zure Belgium. 
-  
-  Azure MVP.
-  
+  tagline: CTO Zure Belgium | Azure MVP  
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   disqus_shortname: glenncolpaert
