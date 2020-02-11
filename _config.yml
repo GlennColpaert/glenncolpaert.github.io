@@ -13,10 +13,10 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Glenn Colpaert
-  tagline: | 
-  Zure Belgium.
+  tagline: 
+  Zure Belgium
 
-  Test.
+  Test
 
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
