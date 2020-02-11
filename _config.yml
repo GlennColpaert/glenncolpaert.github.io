@@ -13,7 +13,9 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Glenn Colpaert
-  tagline: Azure Architect
+  tagline: | 
+  CTO Zure Belgium
+  Azure MVP
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   disqus_shortname: glenncolpaert
@@ -23,7 +25,7 @@ plainwhite:
     - title: Home
       url: "/"
     - title: About
-      url: "/"
+      url: "/about.md"
 
 
   # generate social links in footer
