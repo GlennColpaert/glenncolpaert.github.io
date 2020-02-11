@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 ---
 
 Glenn Colpaert is co-founder and CTO at Zure Belgium. He is a Microsoft Azure MVP since 2014 and is a frequent speaker at national and international events.
