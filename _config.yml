@@ -13,21 +13,17 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Glenn Colpaert
-  tagline: 
-  Zure Belgium
-
-  Test
-
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   disqus_shortname: glenncolpaert
   analytics_id: "UA-157297014-1"
+  tagline: Azure
 
   navigation:
     - title: Home
       url: "/"
     - title: About
-      url: "/"
+      url: "/about"
 
 
   # generate social links in footer
